@@ -6,10 +6,10 @@ In this paper, we introduce the **Dynamic Self-paced Ensemble (DSPE)**, as a nov
 The authors present experimental results demonstrating the effectiveness of DSPE over static ensemble methods, showcasing its ability to enhance performance and stability across different ensemble sizes. 
 
 **Contribution:**
-- **(1)**: [An analysis of the imbalanced learning capability of Meta-learning based ensemble that could be affected by
-the type of its base classifier]
-- **(2)**: [An analysis of coupling Meta-learning-based ensembles with dynamic ensemble selection for handling imbalanced data classification tasks.]
-- **(3)**: [ Examining how various ensemble sizes influence the effectiveness of dynamic selection in imbalanced learning.]
+- **(1)**: An analysis of the imbalanced learning capability of Meta-learning based ensemble that could be affected by
+the type of its base classifier
+- **(2)**: An analysis of coupling Meta-learning-based ensembles with dynamic ensemble selection for handling imbalanced data classification tasks.
+- **(3)**:  Examining how various ensemble sizes influence the effectiveness of dynamic selection in imbalanced learning.
 
 
 ## Installation
