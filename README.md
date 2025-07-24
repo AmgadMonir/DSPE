@@ -10,7 +10,7 @@ The authors present experimental results demonstrating the effectiveness of DSPE
 the type of its base classifier
 - **(2)**: An analysis of coupling Meta-learning-based ensembles with dynamic ensemble selection for handling imbalanced data classification tasks.
 - **(3)**:  Examining how various ensemble sizes influence the effectiveness of dynamic selection in imbalanced learning.
-
+ 
 
 ## Installation
 
@@ -39,6 +39,15 @@ Follow these steps to install and set up the project locally:
      pip install imbalanced-ensemble
      pip install imbalanced-learn==0.11.0
      pip install deslib
+
+## Instructions
+
+1. keeldatasets folder: contains all your datasets
+1. Main.ipynb: - generates **KeelResults folder** containing the output results as .csv files
+2.             - the Main.ipynb includes analysis section, to estimate the performance of DSPE based on model type {DT, SVM, AdaBoost}
+3.             - After analysis you obtain {Final_AUPRC_AdaBoost.csv, Final_AUPRC_DT.csv, Final_AUPRC_SVM.csv} to be statistically analyzed.   
+4. Ensemble-size.ipynb: - generates **ENS-SIZE folder** containing the output results as .csv files
+5.                     -  Includes analysis section to test the effect of ensemble size on the performance of DSPE 
 
 
 # checking the following documentations if necessary
